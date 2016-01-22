@@ -1,13 +1,8 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title></title>
-	<link href="asset/css/bootstrap.min.css" rel="stylesheet">
-    <link href="asset/css/main.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-</head>
-
-<body>
+<!--header-->
+    <?php
+      include_once 'header.php';
+    ?>
+<!--ends of header-->
 <!--container-->
 <div class="container">
 		<div class="container-fluid">
@@ -79,7 +74,3 @@
     include_once 'footer.php';
    ?>
 <!--end footer--> 
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="asset/js/bootstrap.min.js"></script>
-</body>
-</html>

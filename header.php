@@ -2,8 +2,9 @@
 <html>
 <head>
 	<title>Website Name</title>
-	<link rel="stylesheet" type="text/css" href="asset/css/bootstrap.min.css" />
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="asset/css/bootstrap.min.css" rel="stylesheet">
+  <link href="asset/css/main.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 </head>
 <body>
 	<nav class="navbar navbar-inverse navbar-fixed-top">
@@ -20,5 +21,3 @@
       		</ul>
       	</div>
      </nav>
-</body>
-</html>

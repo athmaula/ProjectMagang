@@ -1,3 +1,4 @@
+<!--end of footer-->
         <div class="bottom">
           <div class="container-fluid">
               <div class="col-md-3 col-sm-4">
@@ -37,3 +38,8 @@
           <p><i class="fa fa-copyright">magang</i></p>
         </div>
       </div>
+    <!--end of footer-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="asset/js/bootstrap.min.js"></script>
+  </body>
+</html>
