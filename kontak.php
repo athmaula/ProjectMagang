@@ -10,17 +10,23 @@
     <title>Kontak Perusahaan</title>
     <link href="asset/css/bootstrap.min.css" rel="stylesheet">
     <link href="asset/css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   </head>
   <body>
-    <div class="container">
+  <!--container-->
+  <div class="container">
     <h3>KONTAK KAMI</h3>
     <hr>
       <div class="row">
         <div class="col-xs-12 col-md-12 col-lg-12">
           <div class="col-md-3">
-            <br>
-            <img src="img/logo.png" class="img-responsive">
-            <br>
+            <div class="row">
+              <div class="col-md-10">
+                <a class="thumbnail" href="#">
+                  <img src="img/logo.png">
+                </a>
+              </div>
+            </div>
             <span class="glyphicon glyphicon-map-marker"> Lokasi</span>
             <br>
             <h5>Jl. Sadewa I No.59</h5>
@@ -69,45 +75,11 @@
       </div>
       <hr>    
     </div>
+   <!--end of container--> 
    <!--footer-->
-      <div class="bottom">
-          <div class="container">
-              <div class="col-md-3 col-sm-4">
-                  <h4><span class="glyphicon glyphicon-home"></span> Nama Perusahaan</h4>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                     tempor incididunt ut labore et dolore magna aliqua.
-                  </p>
-                  <p><a href="">continue reading -></a></p>
-                  <hr>
-              </div>
-              <div class="col-md-3 col-sm-4">
-                  <h4><span class="glyphicon glyphicon-briefcase"></span> Magang</h4>
-                  <p>Web Apps</p>
-                  <p>Mobile Apps</p>
-                  <p>Desktop Apps</p>
-                  <hr>
-              </div>
-              <div class="col-md-3 col-sm-4">
-                  <h4><span class="glyphicon glyphicon-flag"></span> Perusahaan</h4>
-                  <p>Perusahaan 1</p>
-                  <p>Perusahaan 2</p>
-                  <p>Perusahaan 3</p>
-                  <hr>
-              </div>
-              <div class="col-md-3 col-sm-4">
-                  <h4><span class="glyphicon glyphicon-menu-right"></span> Ikuti Kami</h4>
-                  <p>facebook</p>
-                  <p>twitter</p>
-                  <p>instagram</p>
-                  <hr>
-              </div>
-          </div>
-      </div>
-      <div class="bawah">
-        <div class="container">
-          <p>magang</p>
-        </div>
-      </div>
+   <?php
+    include_once 'footer.php';
+   ?>
     <!--end footer-->  
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="asset/js/bootstrap.min.js"></script>

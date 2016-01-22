@@ -1,3 +1,23 @@
+.warna-pengguna{
+	background-color: #009688;
+}
+.warna-text{
+	color: #ffffff;
+}
+i{
+	color: #ffffff;
+}
+.service-box{
+	color: #ffffff;
+}
+.ukuran-gambar{
+	margin-top: 10px;
+	max-height: 50%;
+	max-width: 50%;
+}
+.text-center{
+	margin-top: 30px;
+}
 img{
 	margin: auto;
 }
@@ -8,20 +28,20 @@ span{
 	
 }
 .bottom {
+	margin:auto;
     background-color: #373737;
+    color: #ffffff;
 }
-.bottom .container {
+.bottom .container-fluid h4 {
+	margin-top: 40px;
+    text-align: left;
+}
+.bottom .container-fluid {
     min-height: 200px;
     border: 1px;
     border-color: red;
 }
-.bottom .container h4 {
-	margin-top: 40px;
-    color: #999;
-    text-align: left;
-}
-.bottom .container p {
-    color: #666;
+.bottom .container-fluid p {
     text-align: justify;
 }
 
@@ -30,7 +50,11 @@ span{
 	min-height: 20px;
 }
 .bawah p {
-	color: #999;
 	text-align: center;
 	margin: auto;
+}
+.jajal{
+	color: red;
+	background-color: green;
+	margin-top: 40px;
 }
