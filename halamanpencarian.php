@@ -5,18 +5,20 @@
 </head>
 <body>
 <div class="container">
-	<div class="content">
+	<div class="container-fluid">
 		<form class="navbar-right">
 			<div class="form-group">
 				<input class="form-control" type="text" placeholder="Search">	
 			</div>
 		</form>
+	<div class="navbar-left">
 	<div class="dropdown">
   		<button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Cari berdasarkan<span class="caret"></span></button>
   			<ul class="dropdown-menu">
 			    <li><a href="#">Perusahaan</a></li>
 			    <li><a href="#">Pekerjaan</a></li>
 			</ul>
+	</div>
 	</div>
 	</div>
 <div class="content">
