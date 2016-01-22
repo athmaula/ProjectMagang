@@ -1,9 +1,6 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Halaman Pencarian</title>
-</head>
-<body>
+<?php 
+	include_once 'header.php';
+ ?>
 <div class="container">
 	<div class="container-fluid">
 		<form class="navbar-right">
@@ -102,9 +99,6 @@
 		</ul>
 	</div>	
 </div>
-</body>
- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
- <script src="asset/js/bootstrap.min.js"></script>
- <link rel="stylesheet" type="text/css" href="asset/css/bootstrap.min.css">
- <link rel="stylesheet" type="text/css" href="style.css">
-</html>
+<?php 
+	include_once 'footer.php';
+ ?>

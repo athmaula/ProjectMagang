@@ -13,11 +13,10 @@
       			<a class="navbar-brand" href="#">WebSiteName</a>
     		</div>
     		<ul class="nav navbar-nav">
-    			<li><a href="#">Beranda</a></li>
-      			<li><a href="#">Perusahaan</a></li>
-      			<li><a href="#">Galeri</a></li>
-      			<li><a href="#">Cari Magang</a></li>
-      			<li><a href="#">Kontak Kami</a></li>
+    			<li><a href="index.php">Beranda</a></li>
+      			<li><a href="#perusahaan">Perusahaan</a></li>
+      			<li><a href="halamanpencarian.php">Cari Magang</a></li>
+      			<li><a href="kontak.php">Kontak Kami</a></li>
       		</ul>
       	</div>
      </nav>

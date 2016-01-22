@@ -63,7 +63,7 @@
   </div>
   <!--ends of carousel-->
   <!--Daftar Perusahaan-->
-  <div class="container">
+  <div class="container" id="perusahaan">
     <div class="row">
       <div class="text-center">
         <h1>PERUSAHAAN</h1>
@@ -78,7 +78,7 @@
             Lowongan magangLowongan magang
           </span></p>
           <p>
-            <a href="#" class="btn btn-success btn-lg">Learn More</a>
+            <a href="halamanpencarian.php" class="btn btn-success btn-lg">Learn More</a>
           </p>
         </span>
       </div>
@@ -92,7 +92,7 @@
             Lowongan magangLowongan magang
           </span></p>
           <p>
-            <a href="#" class="btn btn-success btn-lg">Learn More</a>
+            <a href="halamanpencarian.php" class="btn btn-success btn-lg">Learn More</a>
           </p>
         </span>
       </div>
@@ -106,7 +106,7 @@
             Lowongan magangLowongan magang
           </span></p>
           <p>
-            <a href="#" class="btn btn-success btn-lg">Learn More</a>
+            <a href="halamanpencarian.php" class="btn btn-success btn-lg">Learn More</a>
           </p>
         </span>
       </div>
