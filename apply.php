@@ -28,7 +28,7 @@
   						<div class="form-group">
     						<label class="control-label col-sm-2" for="tempat lahir">Tempat Lahir:</label>
     						<div class="col-sm-5">
-      							<input type="text" name="tempat lahir" class="form-control" placeholder="Tempat Lahir">
+      							<input type="text" name="tempatlahir" class="form-control" placeholder="Tempat Lahir">
     						</div>
   						</div>
 
@@ -42,9 +42,8 @@
   			<div class="form-group">
   				<label class="control-label col-sm-2">Jenis Kelamin:</label>
   				<div class="col-sm-5">
-					<input type="radio" name="gender" value="male"> Male<br>
-					<input type="radio" name="gender" value="female"> Female<br>
-					<input type="radio" name="gender" value="other"> Other
+					<input type="radio" name="gmale" value="male"> Male<br>
+					<input type="radio" name="gfamale" value="female"> Female<br>
 				</div>
 			</div>
 
@@ -151,7 +150,7 @@
 			<div class="form-group">
     			<label class="control-label col-sm-2">Perusahaan:</label>
     			<div class="col-sm-5">
-      				<input type="text" name="perusahaan" class="form-control" placeholder="Perusahaan">
+      				<input type="text" name="namaperusahaan" class="form-control" placeholder="Perusahaan">
     			</div>
   			</div>
   			
@@ -164,7 +163,7 @@
 			<div class="form-group">
     			<label class="control-label col-sm-2">Perusahaan:</label>
     			<div class="col-sm-5">
-      				<input type="text" name="perusahaan" class="form-control" placeholder="Perusahaan">
+      				<input type="text" name="namaperusahaan" class="form-control" placeholder="Perusahaan">
     			</div>
   			</div>
 
