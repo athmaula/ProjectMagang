@@ -8,7 +8,7 @@
 				<input class="form-control" type="text" placeholder="Search">	
 			</div>
 		</form>
-	<div class="navbar-left">
+	<div class="navbar-kiri">
 	<div class="dropdown">
   		<button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Cari berdasarkan<span class="caret"></span></button>
   			<ul class="dropdown-menu">
@@ -27,7 +27,7 @@
 						</div>
 					<div class="panel-body">
 						<div class="col-xs-12 col-md-3">
-							<img class="img-responsive" src="elementary-logo-blue.sh.png">
+							<img class="img-responsive" src="img/elementary-logo-blue.sh.png">
 					</div>
 					<div class="col-xs-12 col-md-8">
 						<table class="table table-condensed">
@@ -46,7 +46,7 @@
 								</tr>
 							</tbody>
 						</table>
-						<a href="#"><button type="button" class="btn btn-success">Lebih Lengkap</button></a>
+						<a href="perusahaan.php"><button type="button" class="btn btn-success">Lebih Lengkap</button></a>
 					</div>
 				</div>
 			</div>
@@ -62,7 +62,7 @@
 						</div>
 					<div class="panel-body">
 						<div class="col-xs-12 col-md-3">
-							<img class="img-responsive" src="elementary-logo-blue.sh.png">
+							<img class="img-responsive" src="img/elementary-logo-blue.sh.png">
 					</div>
 					<div class="col-xs-12 col-md-7">
 						<table class="table table-condensed">
@@ -81,7 +81,7 @@
 								</tr>
 							</tbody>
 						</table>
-						<a href="#"><button type="button" class="btn btn-success">Lebih Lengkap</button></a>
+						<a href="perusahaan.php"><button type="button" class="btn btn-success">Lebih Lengkap</button></a>
 					</div>
 				</div>
 			</div>
