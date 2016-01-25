@@ -46,7 +46,7 @@
 								</tr>
 							</tbody>
 						</table>
-						<a href="#"><button type="button" class="btn btn-success">Lebih Lengkap</button></a>
+						<a href="perusahaan.php"><button type="button" class="btn btn-success">Lebih Lengkap</button></a>
 					</div>
 				</div>
 			</div>
@@ -81,7 +81,7 @@
 								</tr>
 							</tbody>
 						</table>
-						<a href="#"><button type="button" class="btn btn-success">Lebih Lengkap</button></a>
+						<a href="perusahaan.php"><button type="button" class="btn btn-success">Lebih Lengkap</button></a>
 					</div>
 				</div>
 			</div>

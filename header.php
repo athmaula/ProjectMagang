@@ -14,7 +14,7 @@
     		</div>
     		<ul class="nav navbar-nav">
     			<li><a href="index.php">Beranda</a></li>
-      			<li><a href="#perusahaan">Perusahaan</a></li>
+      			<li><a href="perusahaan.php">Perusahaan</a></li>
       			<li><a href="halamanpencarian.php">Cari Magang</a></li>
       			<li><a href="kontak.php">Kontak Kami</a></li>
       		</ul>
