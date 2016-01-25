@@ -68,3 +68,13 @@ span{
 	background-color: green;
 	margin-top: 40px;
 }
+
+span
+{
+	margin-left: 200px;
+}
+
+.plus
+{
+	margin-left: 400px;
+}
