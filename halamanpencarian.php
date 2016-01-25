@@ -8,7 +8,7 @@
 				<input class="form-control" type="text" placeholder="Search">	
 			</div>
 		</form>
-	<div class="navbar-left">
+	<div class="navbar-kiri">
 	<div class="dropdown">
   		<button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Cari berdasarkan<span class="caret"></span></button>
   			<ul class="dropdown-menu">
