@@ -31,13 +31,8 @@
   			<div class="form-group">
   				<label class="control-label col-sm-2">Jenis Kelamin:</label>
   				<div class="col-sm-5">
-<<<<<<< HEAD
-					<input type="radio" name="gender" value="male"> Male<br>
-					<input type="radio" name="gender" value="female"> Female<br>
-=======
 					<input type="radio" name="gmale" value="male"> Male<br>
 					<input type="radio" name="gfamale" value="female"> Female<br>
->>>>>>> a6585e6b4c9dcddc3465c275a4f8bbf025809bfc
 				</div>
 			</div>
 
@@ -161,7 +156,7 @@
   			</div>
   			
 
-  			<span>
+  			<span class="start">
 				Mulai: <input type="text" name="mulai" placeholder=" Tahun Mulai">
 				Berhenti: <input type="text" name="berhenti" placeholder="Tahun Berhenti">
 			</span><br/><br/>
@@ -173,7 +168,7 @@
     			</div>
   			</div>
 
-  			<span>
+  			<span class="start">
 				Mulai: <input type="text" name="mulai" placeholder="Tahun Mulai">
 				Berhenti: <input type="text" name="berhenti" placeholder="Tahun Berhenti">
 			</span><br><br>
