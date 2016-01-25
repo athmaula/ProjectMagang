@@ -10,14 +10,12 @@
 	<nav class="navbar navbar-inverse navbar-fixed-top">
 		<div class="container-fluid">
     		<div class="navbar-header">
-      			<a class="navbar-brand" href="#">WebSiteName</a>
+      			<a class="navbar-brand" href="index.php">WebSiteName</a>
     		</div>
     		<ul class="nav navbar-nav">
-    			<li><a href="#">Beranda</a></li>
-      			<li><a href="#">Perusahaan</a></li>
-      			<li><a href="#">Galeri</a></li>
-      			<li><a href="#">Cari Magang</a></li>
-      			<li><a href="#">Kontak Kami</a></li>
+      			<li><a href="perusahaan.php">Perusahaan</a></li>
+      			<li><a href="halamanpencarian.php">Cari Magang</a></li>
+      			<li><a href="kontak.php">Kontak Kami</a></li>
       		</ul>
       	</div>
      </nav>

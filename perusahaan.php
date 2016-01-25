@@ -61,7 +61,7 @@
 					</p>
 				</div>
 				<div class="container">
-					<a class="btn btn-success" href="#">Apply</a>
+					<a class="btn btn-success" href="apply.php">Apply</a>
 				</div>
 				<hr>
 			</div>			
