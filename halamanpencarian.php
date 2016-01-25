@@ -27,7 +27,7 @@
 						</div>
 					<div class="panel-body">
 						<div class="col-xs-12 col-md-3">
-							<img class="img-responsive" src="elementary-logo-blue.sh.png">
+							<img class="img-responsive" src="img/elementary-logo-blue.sh.png">
 					</div>
 					<div class="col-xs-12 col-md-8">
 						<table class="table table-condensed">
@@ -62,7 +62,7 @@
 						</div>
 					<div class="panel-body">
 						<div class="col-xs-12 col-md-3">
-							<img class="img-responsive" src="elementary-logo-blue.sh.png">
+							<img class="img-responsive" src="img/elementary-logo-blue.sh.png">
 					</div>
 					<div class="col-xs-12 col-md-7">
 						<table class="table table-condensed">
