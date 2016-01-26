@@ -4,7 +4,7 @@ session_start();
 
 $DB_host = "localhost";
 $DB_user = "root";
-$DB_pass = "namaku";
+$DB_pass = "";
 $DB_name = "projectmagang";
 
 try
@@ -16,3 +16,6 @@ catch(PDOException $e)
 {
      echo $e->getMessage();
 }
+
+//variabel kelas
+$input = new proses ($DB_con);

@@ -1,5 +1,5 @@
 <?php 
-    require_once 'koneksi.php'
+    require_once 'koneksi.php';
     if(isset($_POST['submit']))
       {
         /*$nama = $_POST['nama'];
@@ -61,7 +61,7 @@
     <div class="container">
       <div class="row">
         <div class="col-xs-12 col-md-12"> 
-          <form class="form-horizontal" method="post">
+          <form class="form-horizontal" method="post" action="action.php">
             <h3>A. Data Diri</h3>
               <div class="form-group">
                <label class="control-label col-sm-2" for="name">Nama:</label>
