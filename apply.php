@@ -1,19 +1,8 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<title>Apply</title>
-   		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
-		<link rel="stylesheet" type="text/css" href="main.css">
-	</head>
+<?php 
+    include_once "header.php";
+?>
 
-	<body>
 		<div class="container">
-			<div class="head">
-				
-					<h2>Daftar Magang</h2>
-				
-			</div>
-
 			<div class="row">
 				<div class="col-xs-12 col-md-12"> 
 					<form class="form-horizontal" action=" formulir.html" method="get">
@@ -42,27 +31,40 @@
   			<div class="form-group">
   				<label class="control-label col-sm-2">Jenis Kelamin:</label>
   				<div class="col-sm-5">
+<<<<<<< HEAD
+					<input type="radio" name="gender" value="male"> Male<br>
+					<input type="radio" name="gender" value="female"> Female<br>
+=======
 					<input type="radio" name="gmale" value="male"> Male<br>
 					<input type="radio" name="gfamale" value="female"> Female<br>
+>>>>>>> a6585e6b4c9dcddc3465c275a4f8bbf025809bfc
 				</div>
 			</div>
 
-			<div class="form-group">
-    			<label class="control-label col-sm-2" for="agama">Agama:</label>
-    			<div class="col-sm-5">
-      				<input type="text" name="agama" class="form-control" placeholder="Agama">
-    			</div>
-  			</div>
+            <div class="form-group">
+                <label for="sel1" class="control-label col-sm-2">Select list (select one):</label>
+                <div class="col-sm-5">
+                    <select class="form-control" id="sel1">
+                        <option>Islam</option>
+                        <option>Kristen</option>
+                        <option>Katolik</option>
+                        <option>Hindu</option>
+                        <option>Budha</option>
+                        <option>Kong Hu Cu</option>
+                    </select>
+                    <br>
+                </div>
+            </div>
 
 			<div class="form-group">
-    			<label class="control-label col-sm-2" for="agama">Alamat:</label>
+    			<label class="control-label col-sm-2" for="alamat">Alamat:</label>
     			<div class="col-sm-5">
       				<input type="text" name="alamat" class="form-control" placeholder="Alamat">
     			</div>
   			</div>
 
 			<div class="form-group">
-    			<label class="control-label col-sm-2" for="agama">Nomor Telepon:</label>
+    			<label class="control-label col-sm-2" for="nomortelepon">Nomor Telepon:</label>
     			<div class="col-sm-5">
       				<input type="tel" name="usrtel" class="form-control" placeholder="Nomor Telepon">
     			</div>
@@ -112,6 +114,7 @@
       				<input type="text" name="pt" class="form-control" placeholder="Perguruan Tinggi">
     			</div>
   			</div>
+        </div>
  
 		<div class="ability">
 			<h3>C. Kemampuan</h3>
@@ -143,7 +146,10 @@
     			</div>
   			</div>
 
+            <div class="plus">
 			<div class="link"><a class="btn btn-link">Tambahkan Kemampuan</a></div>
+            </div>
+        </div>
 
 		<div class="experience">
 			<h3>D. Pengalaman Kerja</h3>
@@ -172,12 +178,27 @@
 				Berhenti: <input type="text" name="berhenti" placeholder="Tahun Berhenti">
 			</span><br><br>
 
+            <div class="plus">
 			<div class="link"><a class="btn btn-link">Tambahkan Pengalaman Kerja</a></div>
+            </div>
+
 		</div>
 
-		<div class="footer">
-				<h2>Contact Us</h2>
-		</div>
+        <div class="attactment">
+            <label class="control-label col-sm-2">File:</label>
+            <div class="col-sm-5">
+                <input type="file" name="file">
+            </div>
+            <button class="btn btn-primary" name="submit">Submit</button>
+        </div>
 
-	</body>
-</html>
+
+
+        </div>
+        </div>
+        </div>
+
+
+<?php
+    include_once "footer.php";
+?>
