@@ -1,11 +1,11 @@
-<?php 
+<?php
     include_once "header.php";
 ?>
 
 		<div class="container">
 			<div class="row">
-				<div class="col-xs-12 col-md-12"> 
-					<form class="form-horizontal" action=" formulir.html" method="get">
+				<div class="col-xs-12 col-md-12">
+					<form class="form-horizontal" action=" formulir.php" method="get">
 						<h3>A. Data Diri</h3>
 						<div class="form-group">
     						<label class="control-label col-sm-2" for="name">Nama:</label>
@@ -110,7 +110,7 @@
     			</div>
   			</div>
         </div>
- 
+
 		<div class="ability">
 			<h3>C. Kemampuan</h3>
 			<div class="form-group">
@@ -119,7 +119,7 @@
       				<input type="text" name="bidang" class="form-control" placeholder="Bidang">
     			</div>
   			</div>
-			
+
 			<div class="form-group">
     			<label class="control-label col-sm-2">Deskripsi:</label>
     			<div class="col-sm-5">
@@ -154,13 +154,13 @@
       				<input type="text" name="namaperusahaan" class="form-control" placeholder="Perusahaan">
     			</div>
   			</div>
-  			
+
 
   			<span class="start">
 				Mulai: <input type="text" name="mulai" placeholder=" Tahun Mulai">
 				Berhenti: <input type="text" name="berhenti" placeholder="Tahun Berhenti">
 			</span><br/><br/>
-		
+
 			<div class="form-group">
     			<label class="control-label col-sm-2">Perusahaan:</label>
     			<div class="col-sm-5">
